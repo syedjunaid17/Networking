@@ -16,8 +16,8 @@ gcc dll.o dll_util.o -shared -o libdll.so
 ------------------------------
 Static exe:
 gcc -c application.c -o application.o
-gcc application.o -o exestatic -L . -ldll
-usage: ./exe
+gcc application.o -o exesta -L . -ldll
+usage: ./exesta
 
 dynamic exe:
 gcc -c application.c -o application.o
