@@ -22,6 +22,7 @@ usage: ./exe
 dynamic exe:
 gcc -c application.c -o application.o
 Place the libdll dynamic shared file in /usr/local/lib
+i.e. sudo cp libdll.so /usr/local/lib
 run sudo ldconfig
 gcc application.o -o exedyn -ldll
 usage: ./exedyn
